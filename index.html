@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>KOTA SERANG</title>
+    <link rel="icon" type="image/png" href="img/logo.png" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,17 +20,16 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
-            src="https://banner2.cleanpng.com/20180914/lju/kisspng-serang-regency-clip-art-south-tangerang-5b9c08087a2b71.4984529815369523285004.jpg"
+            src="img/logo.png"
             alt="Logo"
-            width="30"
-            height="24"
+            width="50"
+            height="44"
             class="d-inline-block align-text-top"
           />
-          KOTA SERANG
         </a>
         <button
           class="navbar-toggler"
@@ -45,9 +45,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >HOME</a
-              >
+              <a class="nav-link" aria-current="page" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="profil.html"
@@ -183,294 +181,188 @@
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
+            <button class="btn btn-warning" type="submit">Search</button>
           </form>
         </div>
       </div>
     </nav>
+
     <!-- Jumbotron -->
-    <div
-      class="p-5 mb-4 bg-light rounded-3"
-      style="
-        background-image: url('https://dp3akb.serangkota.go.id/po-content/uploads/banner_2.jpg');
-        background-size: cover;
-        background-position: center;
-        color: white;
-      "
-    >
-      <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold">Selamat Datang di Kota Serang</h1>
-        <p class="col-md-8 fs-4">
-          Kota Serang, kota penuh sejarah dan budaya dengan kekayaan alam yang
-          indah.
+    <div class="card text-bg-dark jumbotron">
+      <img
+        src="https://institutbanten.ac.id/wp-content/uploads/2024/07/serang-kota.jpeg"
+        class="card-img"
+        alt="..."
+      />
+      <div class="card-img-overlay d-flex flex-column justify-content-center">
+        <h5 class="card-title jumbotron-title text-center fs-1 fw-bold">
+          KOTA SERANG
+        </h5>
+        <p class="card-text jumbotron-text text-center fs-3 fw-bold">
+          Terwujudnya Kota Peradaban yang Berdaya dan Berbudaya
         </p>
       </div>
     </div>
-    <div class="container mt-5">
-      <!-- Layanan Public -->
-      <div class="row text-center layananPublic">
-        <div class="col-md-3 service-item">
-          <a href="tel:112">
+
+    <!-- Wave -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#1a237e"
+        fill-opacity="1"
+        d="M0,160L24,154.7C48,149,96,139,144,144C192,149,240,171,288,176C336,181,384,171,432,186.7C480,203,528,245,576,234.7C624,224,672,160,720,117.3C768,75,816,53,864,85.3C912,117,960,203,1008,208C1056,213,1104,139,1152,106.7C1200,75,1248,85,1296,106.7C1344,128,1392,160,1416,176L1440,192L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
+      ></path>
+    </svg>
+
+    <!-- Layanan Public -->
+    <div class="container-fluid layanan-public">
+      <div class="row justify-content-center">
+        <div class="col-sm-3">
+          <div class="card border-0 text-center layanan-public">
             <img
-              alt="Emergency call icon with 112 number"
-              height="100"
               src="https://serangkota.go.id/po-content/uploads/112.svg"
-              width="100"
+              class="card-img-top d-block mx-auto"
+              alt="Emergency call icon with 112 number"
+              style="max-width: 10rem"
             />
-          </a>
-          <h5>Call 112</h5>
-          <p>
-            Layanan SIAGA 112 bantuan kondisi kegawat daruratan untuk masyarakat
-            kota Serang.
-          </p>
+            <div class="card-body">
+              <h5 class="card-title">Call 112</h5>
+              <p class="card-text">
+                Layanan SIAGA 112 bantuan kondisi kegawat daruratan untuk
+                masyarakat kota Serang.
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-3 service-item">
-          <a href="https://ragem.serangkota.go.id/">
+        <div class="col-sm-3">
+          <div class="card border-0 text-center layanan-public">
             <img
-              alt="Hand holding a smartphone with multiple apps"
-              height="100"
               src="https://serangkota.go.id/po-content/uploads/ragem.svg"
-              width="100"
+              class="card-img-top d-block mx-auto"
+              alt=""
+              style="max-width: 10rem"
             />
-          </a>
-          <h5>Ragem</h5>
-          <p>
-            Kumpulan dari beberapa aplikasi layanan publik untuk masyarakat kota
-            Serang.
-          </p>
+            <div class="card-body">
+              <h5 class="card-title">Ragem</h5>
+              <p class="card-text">
+                Kumpulan dari beberapa aplikasi layanan publik untuk masyarakat
+                kota Serang.
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-3 service-item">
-          <a href="https://gelati.serangkota.go.id/">
+        <div class="col-sm-3">
+          <div class="card border-0 text-center layanan-public">
             <img
-              alt="Tourist map and camera"
-              height="100"
               src="https://serangkota.go.id/po-content/uploads/gelati.svg"
-              width="100"
+              class="card-img-top d-block mx-auto"
+              alt="Emergency call icon with 112 number"
+              style="max-width: 10rem"
             />
-          </a>
-          <h5>Gelati</h5>
-          <p>
-            Dapatkan info tempat wisata, tempat makan, pusat oleh-oleh di
-            sekitar kota Serang.
-          </p>
+            <div class="card-body">
+              <h5 class="card-title">Gelati</h5>
+              <p class="card-text">
+                Dapatkan info tempat wisata, tempat makan, pusat oleh-oleh di
+                sekitar kota Serang.
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-3 service-item">
-          <a href="http://disdukcapilonline.serangkota.go.id/">
+        <div class="col-sm-3">
+          <div class="card border-0 text-center layanan-public">
             <img
-              alt="Group of people icons"
-              height="100"
               src="https://serangkota.go.id/po-content/uploads/kependudukan.svg"
-              width="100"
+              class="card-img-top d-block mx-auto"
+              alt="Emergency call icon with 112 number"
+              style="max-width: 10rem"
             />
-          </a>
-          <h5>Kependudukan</h5>
-          <p>
-            Layanan Online Administrasi Kependudukan dan Pencatatan Sipil kota
-            Serang.
-          </p>
+            <div class="card-body">
+              <h5 class="card-title">Kependudukan</h5>
+              <p class="card-text">
+                Layanan Online Administrasi Kependudukan dan Pencatatan Sipil
+                kota Serang.
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-3 service-item">
-          <a href="https://ppid.serangkota.go.id/">
+        <div class="col-sm-3">
+          <div class="card border-0 text-center layanan-public">
             <img
-              alt="Family icon with a man, woman, and child"
-              height="100"
-              src="https://serangkota.go.id/po-content/uploads/ppid.svg"
-              width="100"
-            />
-          </a>
-          <h5>PPID Kota Serang</h5>
-          <p>
-            Cari tahu mengenai Pejabat Pengelola Informasi dan Dokumentasi kota
-            Serang.
-          </p>
-        </div>
-        <div class="col-md-3 service-item">
-          <a href="https://sembako.serangkota.go.id/">
-            <img
-              alt="Basket of groceries with fruits and vegetables"
-              height="100"
               src="https://serangkota.go.id/po-content/uploads/sembako.svg"
-              width="100"
+              class="card-img-top d-block mx-auto"
+              alt="Emergency call icon with 112 number"
+              style="max-width: 10rem"
             />
-          </a>
-          <h5>Info Sembako</h5>
-          <p>
-            Dapatkan info harga rata-rata komoditas harian di daerah sekitar
-            kota Serang.
-          </p>
+            <div class="card-body">
+              <h5 class="card-title">PPID Kota Serang</h5>
+              <p class="card-text">
+                Cari tahu mengenai Pejabat Pengelola Informasi dan Dokumentasi
+                kota Serang.
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-3 service-item">
-          <a href="https://jdih.serangkota.go.id/">
+        <div class="col-sm-3">
+          <div class="card border-0 text-center layanan-public">
             <img
-              alt="Gavel and legal documents"
-              height="100"
+              src="https://serangkota.go.id/po-content/uploads/sembako.svg"
+              class="card-img-top d-block mx-auto"
+              alt="Emergency call icon with 112 number"
+              style="max-width: 10rem"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Info Sembako</h5>
+              <p class="card-text">
+                Dapatkan info harga rata-rata komoditas harian di daerah sekitar
+                kota Serang.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card border-0 text-center layanan-public">
+            <img
               src="https://serangkota.go.id/po-content/uploads/jdih.svg"
-              width="100"
+              class="card-img-top d-block mx-auto"
+              alt="Emergency call icon with 112 number"
+              style="max-width: 10rem"
             />
-          </a>
-          <h5>JDIH Kota Serang</h5>
-          <p>
-            Cari tahu mengenai Jaringan Dokumentasi dan Informasi Hukum kota
-            Serang.
-          </p>
+            <div class="card-body">
+              <h5 class="card-title">JDIH Kota Serang</h5>
+              <p class="card-text">
+                Cari tahu mengenai Jaringan Dokumentasi dan Informasi Hukum kota
+                Serang.
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-3 service-item">
-          <a href="https://sikondang.serangkota.go.id/">
+        <div class="col-sm-3">
+          <div class="card border-0 text-center layanan-public">
             <img
-              alt="Graph and chart on a computer screen"
-              height="100"
               src="https://serangkota.go.id/po-content/uploads/sikondang.svg"
-              width="100"
+              class="card-img-top d-block mx-auto"
+              alt="Emergency call icon with 112 number"
+              style="max-width: 10rem"
             />
-          </a>
-          <h5>Sikondang</h5>
-          <p>Dapatkan informasi Statistik di daerah kota Serang dalam Angka.</p>
-        </div>
-      </div>
-      <!-- Banner -->
-      <div class="banner-title mt-5">BANNER KOTA SERANG</div>
-      <div class="row text-center banner">
-        <div class="col-md-4">
-          <img
-            src="https://serangkota.go.id/po-content/uploads/85f71229-a2e8-4a72-9ba0-4908dbe231d6.jpg"
-            class="img-thumbnail"
-            alt="..."
-          />
-        </div>
-        <div class="col-md-4">
-          <img
-            src="https://serangkota.go.id/po-content/uploads/ec9eb452-47c8-43ed-be73-42f593d1307a.jpg"
-            class="img-thumbnail"
-            alt="..."
-          />
-        </div>
-        <div class="col-md-4">
-          <img
-            src="https://serangkota.go.id/po-content/uploads/ed7d4001-b1ed-439d-be05-78d96232c792.jpg"
-            class="img-thumbnail"
-            alt="..."
-          />
-        </div>
-      </div>
-      <!-- Berita Terbaru -->
-      <div class="banner-title mt-5">BERITA TERBARU</div>
-      <div class="row berita">
-        <div class="col-md-6">
-          <div class="card mb-3" style="max-width: 540px; height: 300px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="https://serangkota.go.id/po-content/uploads/img-20241008-wa0056.jpg"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">
-                    Kolaborasi Program Ketahanan Pangan
-                  </h5>
-                  <p class="card-text">
-                    Kolaborasi Program Ketahanan Pangan, Pemkot Serang kembali
-                    siapkan lahan untuk Bawang Merah dan Cabai.
-                  </p>
-                  <p class="card-footer">
-                    <small class="text-body-secondary">09 Oct 2024</small><br />
-                    <a href="" class="btn btn-success mt-5">View More</a>
-                  </p>
-                </div>
-              </div>
+            <div class="card-body">
+              <h5 class="card-title">Sikondang</h5>
+              <p class="card-text">
+                Dapatkan informasi Statistik di daerah kota Serang dalam Angka.
+              </p>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="card mb-3" style="max-width: 540px; height: 300px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="https://serangkota.go.id/po-content/uploads/img-20241009-wa0072.jpg"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Imam Rana Resmi Dilantik</h5>
-                  <p class="card-text">
-                    Dinilai Memiliki Kapasitas & Kapabilitas, Imam Rana Resmi
-                    Dilantik Menjadi Penjabat Sekda Kota Serang.
-                  </p>
-                  <p class="card-footer">
-                    <small class="text-body-secondary">09 Oct 2024</small><br />
-                    <a href="" class="btn btn-success mt-5">View More</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card mb-3" style="max-width: 540px; height: 300px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="https://serangkota.go.id/po-content/uploads/img-20241007-wa0042.jpg"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Apel pagi Plh Sekda</h5>
-                  <p class="card-text">
-                    Apel pagi Plh Sekda Peroleh Penghargaan TREN Penurunan
-                    Stunting & Deklarasikan Bebas ODF se-Kecamatan Curug.
-                  </p>
-                  <p class="card-footer">
-                    <small class="text-body-secondary">09 Oct 2024</small><br />
-                    <a href="" class="btn btn-success mt-5">View More</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card mb-3" style="max-width: 540px; height: 300px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="https://serangkota.go.id/po-content/uploads/img-20241008-wa0068.jpg"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">
-                    Penandatanganan Netralitas, Ketua Bawaslu Kota Serang
-                  </h5>
-                  <p class="card-text">
-                    Penandatanganan Netralitas, Ketua Bawaslu Kota Serang: "ASN
-                    boleh tidak netral, Tapi dibilik Suara".
-                  </p>
-                  <p class="card-footer">
-                    <small class="text-body-secondary">09 Oct 2024</small><br />
-                    <a href="" class="btn btn-success mt-5">View More</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Button Berita -->
-      <div class="d-flex justify-content-center mt-3">
-        <div class="btn btn-primary">Lihat Semua</div>
       </div>
     </div>
+
+    <!-- Wave -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#1a237e"
+        fill-opacity="1"
+        d="M0,160L24,154.7C48,149,96,139,144,144C192,149,240,171,288,176C336,181,384,171,432,186.7C480,203,528,245,576,234.7C624,224,672,160,720,117.3C768,75,816,53,864,85.3C912,117,960,203,1008,208C1056,213,1104,139,1152,106.7C1200,75,1248,85,1296,106.7C1344,128,1392,160,1416,176L1440,192L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"
+      ></path>
+    </svg>
+
     <!-- Footer -->
     <footer class="footer text-center text-lg-start mt-5">
       <div class="container">

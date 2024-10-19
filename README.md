@@ -1,5 +1,3 @@
-<p align="center"></p>
-
 <h1 align="center">
    <a href="https://github.com/RegaAnton/Template_Website_Kota_Serang.git" target="_blank" align="center">
       Template Website Kota Serang
@@ -7,8 +5,13 @@
 </h1>
 
 <p align="center">Menggunakan Bootstrap 5 sebagai Frontend</p>
+<p align="center">Link : 
+   <a href="https://kota-serang.vercel.app/" target="_blank" align="center">
+      Kota Serang
+   </a>
+</p>
 
-![App Screenshot](ss.png)
+![App Screenshot](img/ss.png)
 
 ## Introduction 🚀
 
