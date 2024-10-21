@@ -13,11 +13,11 @@
 }
 
 .jumbotron-title {
-  color: #d0c05b;
+  color: white;
 }
 
 .jumbotron-text {
-  color: #d0c05b;
+  color: white;
 }
 
 .dropdown-menu {
@@ -38,6 +38,13 @@
   color: #05284e;
   text-align: center;
   margin-bottom: 20px;
+}
+
+.odp {
+  background-color: #05284e;
+  color: white;
+  margin-top: -5px;
+  margin-bottom: -5px;
 }
 
 .footer {
