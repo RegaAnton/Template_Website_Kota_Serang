@@ -11,7 +11,7 @@
    </a>
 </p>
 
-![App Screenshot](img/ss.png)
+![App Screenshot](img/screenshoot.png)
 
 ## Introduction 🚀
 
