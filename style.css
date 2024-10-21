@@ -1,6 +1,6 @@
 /* Navbar  */
 .navbar {
-  background-color: #1a237e;
+  background-color: #05284e;
 }
 
 .navbar .container-fluid a {
@@ -13,19 +13,19 @@
 }
 
 .jumbotron-title {
-  color: yellow;
+  color: #d0c05b;
 }
 
 .jumbotron-text {
-  color: yellow;
+  color: #d0c05b;
 }
 
 .dropdown-menu {
-  background-color: #1a237e;
+  background-color: #05284e;
 }
 
 .layanan-public {
-  background-color: #1a237e;
+  background-color: #05284e;
   color: white;
   margin-top: -5px;
   margin-bottom: -5px;
@@ -35,13 +35,13 @@
 .banner-title {
   font-size: 36px;
   font-weight: 700;
-  color: #1a237e;
+  color: #05284e;
   text-align: center;
   margin-bottom: 20px;
 }
 
 .footer {
-  background-color: #1a237e;
+  background-color: #05284e;
   color: white;
   padding: 20px 0;
 }
